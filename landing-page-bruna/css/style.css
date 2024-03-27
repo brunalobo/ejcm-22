@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+/*Página Inteira*/
+*{
+    background-color: #121212;
+    font-family: 'Roboto-Regular';
+    color:aliceblue
+}
+
+/*Header*/
+header{
+    display: flex;       
+}
+.logo-reuse{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+}
+.imagem-superior img{
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    border-radius: 25px;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    color:aliceblue
+}
+
+/*Body*/
+.container{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.texto1{
+    display: flex;
+    padding-left: auto;
+}
+.row{
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+}
+.secaofinal{
+    display: flex;
+    
+}
+/*Formulário*/
+.row{
+    width: 50%;
+}
+
+/*Footer*/
+.appstore{
+    width: 10%;
+    margin: auto;
+    justify-content: center;
+}
+
+div.apple {
+    position: relative;
+    left: 10px;
+  }
+
+  
